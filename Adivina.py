@@ -36,7 +36,7 @@ def adivina_numero():
         except ValueError:
             print("Entrada inválida. Por favor, introduce un número válido.")
     
-    print(f"Lo siento, has perdido. El número era {numero_aleatorio}.")
+    print(f"Has perdido. El número era {numero_aleatorio}.")
 
 # Función para el juego "Piedra, Papel o Tijeras"
 def piedra_papel_tijeras():
@@ -88,7 +88,7 @@ def piedra_papel_tijeras():
     if puntos_usuario == 3:
         print("¡Felicidades! Ganaste el juego.")
     else:
-        print("Lo siento, la computadora ganó el juego.")
+        print("La computadora ganó el juego.")
 
 # Función para cargar palabras desde un archivo
 def cargar_palabras():
@@ -148,7 +148,7 @@ def el_ahorcado():
     if "_" not in letras_adivinadas:
         print(f"¡Felicidades! Has adivinado la palabra: {palabra_seleccionada}")
     else:
-        print(f"Lo siento, has perdido. La palabra era: {palabra_seleccionada}")
+        print(f"Has perdido. La palabra era: {palabra_seleccionada}")
 
 
 # Menú principal para seleccionar el juego
