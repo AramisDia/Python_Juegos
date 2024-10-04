@@ -155,10 +155,10 @@ def el_ahorcado():
 def menu():
     while True:
         print("\n    Menú Principal    \n")
-        print("1. Adivina el número")
-        print("2. Piedra, Papel o Tijeras")
-        print("3. El Ahorcado")
-        print("4. Salir")
+        print("1-->Adivina el número")
+        print("2-->Piedra, Papel o Tijeras")
+        print("3-->El Ahorcado")
+        print("4-->Salir")
         
         opcion = input("Selecciona una opción: ")
 
